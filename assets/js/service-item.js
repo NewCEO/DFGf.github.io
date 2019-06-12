@@ -55,7 +55,7 @@
     new WOW().init();
 
     // Typed JS
-    var sentences = ["Theme Design"];
+    var sentences = ["ABOUT US"];
     $(".skilltechtypetext").typed({
         strings: sentences,
         contentType: 'html',

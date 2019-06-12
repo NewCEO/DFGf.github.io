@@ -21,108 +21,6 @@
 
 /* 1. Global Styles
 --------------------------------- */
-
-.card-body li{
-  list-style: none;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 700
-}
-
-
-/* color system
----------------------------------*/
-/* primary color */
-.hero-section-2 .second-headline span,
-.hero-section-video-dark .second-headline span,
-.hero-section-yt-dark .second-headline span,
-.about-icons li .icon .material-icons,
-.quote-bottom .container h3 span,
-.service-headline h2 span,
-.service .text a:hover,
-.service-2 .text a:hover,
-.service .icons i,
-.service-2 .icons i,
-.info-line .info-icon i,
-footer p a:hover,
-.portfolio-icons li a i,
-.service-icons li a i {
-    color: #00a859;
-}
-.social-icons li a:hover,
-.contact-form .btn-default:hover,
-.portfolio-icons li a:hover,
-.service-icons li a:hover,
-.service-form .btn-default:hover {
-   background-color: #00a859;
-}
-.contact-form .btn-default:hover,
-.service-form .btn-default:hover {
-   border-color: #00a859;
-}
-/* primary color 2 */
-.st-nav-trigger {
-   box-shadow: 0 0 10px #00a859;
-}
-@media only screen and (min-width: 992px) {
-   #st-nav.is-fixed ul {
-       box-shadow: 0 0 10px #00a859;
-   }
-}
-.st-nav-trigger span,
-.st-nav-trigger.menu-is-open span::before,
-.st-nav-trigger.menu-is-open span::after,
-.image-section .btn-lg,
-.social-icons li a {
-   background: #00a859;
-}
-/* primary color 3 */
-.sweep-icon a .fa {
-   color: #00afef;
-}
-/* secondary color */
-.our-work-section .new-style p a {
-   color: #ea8d1d;
-}
-.sweep-layer h3 a:hover {
-   color: #ea8d1d;
-}
-/* Gradients */
-/* secondary and secondary 2 */
-.call-to-section .btn-default {
-   background: -ms-linear-gradient(left, #ea8d1d 0%, #ffcc29 100%);
-   background: -moz-linear-gradient(left, #ea8d1d 0%, #ffcc29 100%);
-   background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #ea8d1d), color-stop(1, #ffcc29));
-   background: -webkit-linear-gradient(left, #ea8d1d, #ffcc29 100%);
-   background: linear-gradient(to right, #ea8d1d, #ffcc29 100%);
-   border: 1px solid #ea8d1d;
-}
-/* secondary and primary 2 */
-/*.hero-layer,.call-to-layer {*/
-   background: -ms-linear-gradient(left, #ea8d1d 0%, #00a859 100%);
-   background: -moz-linear-gradient(left, #ea8d1d 0%, #00a859 100%);
-   background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #ea8d1d), color-stop(1, #00a859));
-   background: -webkit-linear-gradient(left, #ea8d1d, #00a859 100%);
-   background: linear-gradient(to right, #ea8d1d, #00a859 100%);
-}
-.portfolio-img .sweep-left,
-.portfolio-img .sweep-right {
-   background: -ms-linear-gradient(left, #00a859 0%, #ea8d1d 100%);
-   background: -moz-linear-gradient(left, #00a859 0%, #ea8d1d 100%);
-   background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00a859), color-stop(1, #ea8d1d));
-   background: -webkit-linear-gradient(left, #00a859, #ea8d1d 100%);
-   background: linear-gradient(to right, #00a859, #ea8d1d 100%);
-}
-/* secondary 2 and primary 4 */
-.gradient {
-   background: -ms-linear-gradient(left, #ffcc29 0%, #bf0000 100%);
-   background: -moz-linear-gradient(left, #ffcc29 0%, #bf0000 100%);
-   background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #ffcc29), color-stop(1, #bf0000));
-   background: -webkit-linear-gradient(left, #ffcc29, #bf0000 100%);
-   background: linear-gradient(to right, #ffcc29, #bf0000 100%);
-}
-                
-
-
 html {
     width: 100%;
     height: 100%;
@@ -131,6 +29,7 @@ html {
 body {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -497,7 +396,7 @@ header #st-logo img {
 }
 
 .hero-logo {
-    margin-top: 100px;
+    margin-top: 330px;
     overflow: hidden;
 }
 
@@ -510,7 +409,6 @@ header #st-logo img {
     left: 0;
     right: 0;
     top: 330px;
-    margin-top: -150px;
 }
 
 .hero-section .typed-text {
@@ -678,8 +576,8 @@ header #st-logo img {
 }
 
 .our-work-section .see-work {
-    height: 100px;
-    padding: 25px 0;
+    height: 130px;
+    padding: 35px 0;
     text-align: center;
     background-color: #0c161e;
     color: #ffffff;
@@ -726,7 +624,6 @@ header #st-logo img {
 .our-work-section .portfolio-images {
     height: 100%;
     padding: 0;
-  
 }
 
 .our-work-section .portfolio-images .col-md-3 {
@@ -736,12 +633,10 @@ header #st-logo img {
 .portfolio-images .col-md-3 .portfolio-img {
     height: 100%;
     overflow: hidden;
-    
 }
 
 .portfolio-img .img-responsive {
-    max-width: 110%;
-    margin-left: -10px;
+/*    margin-left: -15px;*/
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
@@ -850,20 +745,14 @@ header #st-logo img {
 --------------------------------- */
 
 .about-section {
-    height: 400px;
+    height: 880px;
     text-align: center;
     background: #ffffff;
-  
 }
 
 .about-text {
-    padding-top:150px;
+    padding-top: 100px;
     height: 440px;
-  margin-bottom: 15px;
-}
-
-#about{
-  margin-top: -120px;
 }
 
 .about-text h2 {
@@ -883,20 +772,17 @@ header #st-logo img {
     font-size: 16px;
     color: #647D89;
     font-weight: 300;
-    
-  
+    margin-bottom: 40px;
 }
 
 .about-icons {
-    margin-top: -120px;
-    margin-bottom: 50px;
-  
+    margin-top: -50px;
+  margin-left: -87px;
 }
 
 .about-icons li {
     height: 40px;
     overflow: hidden;
-
 }
 
 .about-icons li .icon {
@@ -914,17 +800,19 @@ header #st-logo img {
 .about-icons li .text {
     display: inline-block;
     height: 40px;
+/*
     padding: 12px 0;
     font-size: 16px;
     line-height: 16px;
+*/
     color: white;
     overflow: auto;
+    width:408px;
 }
 
 .about-images {
     height: 440px;
     position: relative;
-    margin-top: 160px;
 }
 
 .about-images .image-left,
@@ -954,10 +842,9 @@ header #st-logo img {
 /* 7. Quote Section
 --------------------------------- */
 .quote-section {
-    height: 500px;
+    height: 530px;
     z-index: 1001;
     position: relative;
-    margin-top: -150px;
 }
 
 .quote-headline {
@@ -980,12 +867,11 @@ header #st-logo img {
 }
 
 .quote-bottom {
-    height: 500px;
+    height: 700px;
     background: url(../images/quote-background.jpg) 50% 100% fixed;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 137px;
-    margin-bottom: -100px
+    padding-top: 137px;
+    padding-bottom: 300px;
 }
 
 .quote-bottom .container h3 {
@@ -1365,7 +1251,7 @@ header #st-logo img {
 /* 11. Contact Section
 --------------------------------- */
 .contact-section {
-    height: 830px;
+/*    height: 870px;*/
     padding-top: 60px;
     text-align: center;
     background: url(../images/contact-hero.jpg) 0 50% fixed
@@ -1446,12 +1332,6 @@ header #st-logo img {
 
 .info-line .info-icon i {
     font-size: 21px;
-    margin-left: -50PX;
-}
-
-#address{
-  margin-top: -30px;
-  margin-left: 40px;
 }
 
 .info-line .info-text {
@@ -1461,7 +1341,7 @@ header #st-logo img {
 
 .info-line .info-text p {
     line-height: 26px;
-    font-size: 15px;
+    font-size: 16px;
     color: #ffffff;
 }
 
@@ -1484,7 +1364,7 @@ header #st-logo img {
 }
 
 .bottom-info p {
-    margin-top:
+    margin-top: 20px;
     line-height: 24px;
     font-size: 15px;
     color: #ffffff;
@@ -1563,8 +1443,8 @@ footer {
     height: 140px;
     background-color: #0c161e;
     text-align: center;
+    padding-top: 60px;
     clear: both;
-  z-index: 1001;
 }
 
 footer p {
@@ -2113,7 +1993,7 @@ footer p a {
     }
 
     .image-section {
-        height: 470px;
+        height: 550px;
         background-size: cover;
         padding-top: 120px;
         padding-bottom: 180px;
@@ -2138,7 +2018,6 @@ footer p a {
 
     .about-images {
         height: 380px;
-      margin-bottom: 500px;
     }
 
     .about-images .image-center {
@@ -2244,7 +2123,6 @@ footer p a {
         width: 570px;
         height: 160px;
         top: -10px;
-      
     }
 
     .hero-section .typed-text {
@@ -2274,10 +2152,6 @@ footer p a {
         line-height: 31px;
         font-size: 24px;
     }
-  
-  #operation{ 
-  margin-top: -200px;
-  }
 
     .image-section .btn-lg {
         width: 140px;
@@ -2289,7 +2163,8 @@ footer p a {
     }
 
     .our-work-section .portfolio-images {
-        height: 360px;
+        height:100%;
+        width: 429px;
     }
 
     .portfolio-img .sweep-layer {
@@ -2354,7 +2229,7 @@ footer p a {
     }
 
     .contact-section {
-        height: 1600px;
+        height: 1400px;
         overflow: hidden;
     }
 
@@ -2371,7 +2246,6 @@ footer p a {
 
     .contact-info {
         margin-bottom: 30px;
-        height: 1000PX;
     }
 
     footer {
@@ -2589,6 +2463,7 @@ footer p a {
     .image-section {
         padding-left: 40px;
         padding-right: 40px;
+        height: 110%
     }
 
     .about-section {
@@ -2868,7 +2743,7 @@ footer p a {
     }
 
     .portfolio-images .col-xs-6 {
-        width: 100%;
+/*        width: 100%;*/
     }
 
     .about-section {
@@ -2877,7 +2752,7 @@ footer p a {
 
     .about-text {
         padding: 80px 20px 0;
-        height: 560px;
+        height: 100%;
     }
 
     .about-text h2 {
@@ -2886,7 +2761,7 @@ footer p a {
     }
 
     .about-icons li {
-        width: 200px;
+        width: 500px;
         text-align: left;
     }
 
