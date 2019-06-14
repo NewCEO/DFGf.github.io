@@ -781,16 +781,17 @@ header #st-logo img {
 }
 
 .about-icons li {
-    height: 40px;
-    overflow: hidden;
+
+/*		height: 40px;*/
+/*		overflow: hidden;*/
 }
 
 .about-icons li .icon {
-    padding: 4px 0;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    overflow: hidden;
+	padding: 4px 0;
+/*	display: inline-block;*/
+	/*	width: 40px;*/
+	/*	height: 40px;*/
+/*	overflow: hidden;*/
 }
 
 .about-icons li .icon .material-icons {
@@ -798,9 +799,10 @@ header #st-logo img {
 }
 
 .about-icons li .text {
-    display: inline-block;
-    height: 40px;
-/*
+
+	/*	display: inline-block;*/
+/*	height: 90px;*/
+	/*
     padding: 12px 0;
     font-size: 16px;
     line-height: 16px;
@@ -837,6 +839,10 @@ header #st-logo img {
     right: 0;
     bottom: 0;
     z-index: 1;
+	font-size: 20px;
+	color: white;
+	overflow: auto;
+/*	width: 408px;*/
 }
 
 /* 7. Quote Section
