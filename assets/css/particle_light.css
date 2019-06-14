@@ -377,7 +377,7 @@ header #st-logo img {
 /* 3. Hero Section
 --------------------------------- */
 .hero-section {
-	/*    height: 100vh;*/
+	/*	height: 100vh;*/
 	width: 100%;
 	text-align: center;
 	background: url(../images/Main-Header-Image%20.png) 0 0 no-repeat;
@@ -386,6 +386,7 @@ header #st-logo img {
 	position: relative;
 }
 
+/*
 .hero-layer {
 	height: 100%;
 	width: 100%;
@@ -394,6 +395,7 @@ header #st-logo img {
 	left: 0;
 	opacity: 0.8;
 }
+*/
 
 .hero-logo {
 	margin-top: 60px;
@@ -413,7 +415,7 @@ header #st-logo img {
 
 .hero-section .typed-text {
 	height: 50px;
-	margin-bottom: 60px;
+	margin-bottom: 150px;
 }
 
 .hero-section .typed-text .skilltechtypetext {
@@ -813,10 +815,7 @@ header #st-logo img {
 }
 
 .about-icons {
-	/*	margin-top: -50px;*/
-	/*	margin-left: -87px;*/
-	text-align: center;
-	padding-left: 0px;
+	padding: 0px;
 }
 
 .about-icons li {
@@ -839,17 +838,9 @@ header #st-logo img {
 }
 
 .about-icons li .text {
-	/*	display: inline-block;*/
-	/*	height: 90px;*/
-	/*
-    padding: 12px 0;
-    font-size: 16px;
-    line-height: 16px;
-*/
 	font-size: 20px;
 	color: white;
 	overflow: auto;
-	/*	width: 408px;*/
 }
 
 /* 7. Quote Section
@@ -1299,21 +1290,21 @@ header #st-logo img {
 
 .contact-content {
 	text-align: center;
-	padding: 10px 70px;
+	/*	padding: 10px 70px;*/
 	overflow: auto;
 }
 
 .contact-info,
 .contact-form {
-	height: 480px;
-	width: 45%;
-	display: inline-block;
+	/*	height: 480px;*/
+	/*	width: 45%;*/
+	/*	display: inline-block;*/
 	background-color: rgba(255, 255, 255, 0.07);
-	overflow: hidden;
+	/*	overflow: hidden;*/
 }
 
 .contact-info {
-	margin-right: 30px;
+	margin-right: 10px;
 	padding: 30px 30px;
 	text-align: left;
 	font-weight: 300;
@@ -1362,7 +1353,18 @@ header #st-logo img {
 	color: #ffffff;
 }
 
+.social-icons {
+	display: flex;
+	padding: 0;
+	justify-content: space-around;
+}
+
+.social-icons li {
+	list-style-type: none;
+}
+
 .social-icons li a {
+	border-radius: 5px;
 	display: table;
 	width: 40px;
 	height: 40px;
@@ -1390,7 +1392,7 @@ header #st-logo img {
 }
 
 .contact-form {
-	margin-left: 30px;
+	/*	margin-left: 30px;*/
 }
 
 .contact-form h4 {
@@ -2001,6 +2003,7 @@ footer p a {
 
 /* 15. Media Queries
 --------------------------------- */
+/*
 @media only screen and (max-width: 1200px) {
 	.hero-logo img {
 		width: 70%;
@@ -2355,8 +2358,7 @@ footer p a {
 	}
 
 	#st-nav ul {
-		/* the navigation moves to the top */
-		position: absolute;
+		the navigation moves to the top position: absolute;
 		width: auto;
 		max-width: none;
 		bottom: auto;
@@ -2648,8 +2650,9 @@ footer p a {
 	.portfolio-info .first {
 		width: 140px;
 	}
-}
+}*/
 
+/*
 @media only screen and (max-width: 600px) and (orientation: landscape) {
 	.service-item .row .typed-headline {
 		padding-top: 12%;
@@ -2676,7 +2679,9 @@ footer p a {
 		padding: 1.0em;
 	}
 }
+*/
 
+/*
 @media only screen and (max-width: 590px) and (min-width: 481px) {
 	.hero-logo {
 		margin-top: 90px;
@@ -2741,7 +2746,9 @@ footer p a {
 		float: none;
 	}
 }
+*/
 
+/*
 @media only screen and (max-width: 560px) {
 
 	.portfolio-icons li {
@@ -2766,7 +2773,9 @@ footer p a {
 	}
 
 }
+*/
 
+/*
 @media only screen and (max-width: 480px) {
 	.hero-section #particles-js {
 		width: 280px;
@@ -2784,7 +2793,7 @@ footer p a {
 	}
 
 	.portfolio-images .col-xs-6 {
-		/*        width: 100%;*/
+		        width: 100%;
 	}
 
 	.about-section {
@@ -2967,6 +2976,8 @@ footer p a {
 		margin-top: 14px;
 	}
 }
+*/
+/*
 
 @media only screen and (max-width: 380px) {
 	.about-images .image-center {
@@ -3066,3 +3077,4 @@ footer p a {
 		font-size: 14px
 	}
 }
+*/
