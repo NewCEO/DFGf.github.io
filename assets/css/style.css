@@ -1,3 +1,9 @@
+.v-align {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 #bigtext p {
 	color: white;
 	font-size: 20px;
@@ -9,71 +15,18 @@
 
 .what-we-do {
 	color: white !important;
-	font-size: 15px;
+	font-size: 14px;
+	align-items: center;
+	margin-bottom: 0;
+	padding-right: 10px;
+	list-style-type: none;
+	padding-left: 10px;
+	text-align-last: center;
 }
 
 .what-we-do-p {
 	color: white !important;
-	font-size: 12px !important;
+	font-size: 12.5px !important;
 	padding: 10px;
+	text-align: center
 }
-
-/*
-@media (max-width: 1200px) {
-	.what-we-do-row {
-		display: flex;
-		flex-wrap: nowrap;
-	}
-
-	.what-we-do {
-		color: white !important;
-		font-size: 14px;
-	}
-
-	.what-we-do-p {
-		color: white !important;
-		font-size: 12px !important;
-		padding: 10px;
-	}
-}
-*/
-
-/*
-@media (min-width: 992px) {
-    .what-we-do-row {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-    .what-we-do {
-        color: white !important;
-        font-size: 12px;
-    }
-    .what-we-do-p {
-        color: white !important;
-        font-size: 11px !important;
-        padding: 10px;
-    }
-}
-
-@media (min-width: 768px) {
-    .what-we-do {
-        text-align: center;
-        padding-top: 25%;
-    }
-    .what-we-do-p {
-        color: white !important;
-        font-size: 17px !important;
-        padding: 20px;
-        text-align: center;
-        padding-top: 20%;
-    }
-}*/
-
-/*
-@media only screen and (max-width: 992px) {
-	.hero-section .typed-text {
-		 height: 26px;
-		margin-bottom: 20%;
-	}
-}
-*/
