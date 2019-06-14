@@ -584,7 +584,7 @@ header #st-logo img {
 }
 
 .our-work-section .see-work {
-/*	height: 130px;*/
+	/*	height: 130px;*/
 	padding: 30px 0;
 	text-align: center;
 	background-color: #0c161e;
@@ -753,69 +753,9 @@ header #st-logo img {
 --------------------------------- */
 
 .about-section {
-/*	height: 880px;*/
+	/*		height: 880px;*/
 	text-align: center;
 	background: #ffffff;
-}
-
-.about-text {
-	padding-top: 100px;
-	height: 440px;
-}
-
-.about-text h2 {
-	line-height: 44px;
-	font-size: 40px;
-	margin-bottom: 20px;
-	font-weight: 200;
-}
-
-.about-text h2 span {
-	font-weight: 700;
-	color: #3A3A3A;
-}
-
-.about-text p {
-	line-height: 26px;
-	font-size: 16px;
-	color: #647D89;
-	font-weight: 300;
-	margin-bottom: 40px;
-}
-
-.about-icons {
-	margin-top: -50px;
-	margin-left: -87px;
-}
-
-.about-icons li {
-/*	height: 40px;*/
-/*	overflow: hidden;*/
-}
-
-.about-icons li .icon {
-	padding: 4px 0;
-	display: inline-block;
-	width: 40px;
-/*	height: 40px;*/
-	overflow: hidden;
-}
-
-.about-icons li .icon .material-icons {
-	font-size: 32px;
-}
-
-.about-icons li .text {
-/*	display: inline-block;*/
-	height: 40px;
-	/*
-    padding: 12px 0;
-    font-size: 16px;
-    line-height: 16px;
-*/
-	color: white;
-	overflow: auto;
-	width: 408px;
 }
 
 .about-images {
@@ -847,16 +787,77 @@ header #st-logo img {
 	z-index: 1;
 }
 
+.about-text {
+	padding-top: 100px;
+	height: 440px;
+}
+
+.about-text h2 {
+	line-height: 44px;
+	font-size: 40px;
+	margin-bottom: 20px;
+	font-weight: 200;
+}
+
+.about-text h2 span {
+	font-weight: 700;
+	color: #3A3A3A;
+}
+
+.about-text p {
+	line-height: 26px;
+	font-size: 16px;
+	color: #647D89;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.about-icons {
+	/*	margin-top: -50px;*/
+	/*	margin-left: -87px;*/
+}
+
+.about-icons li {
+	/*	height: 40px;*/
+	/*	overflow: hidden;*/
+}
+
+.about-icons li .icon {
+	padding: 4px 0;
+	display: inline-block;
+	/*	width: 40px;*/
+	/*	height: 40px;*/
+	overflow: hidden;
+}
+
+.about-icons li .icon .material-icons {
+	font-size: 50px;
+}
+
+.about-icons li .text {
+	/*	display: inline-block;*/
+	height: 90px;
+	/*
+    padding: 12px 0;
+    font-size: 16px;
+    line-height: 16px;
+*/
+	font-size: 20px;
+	color: white;
+	overflow: auto;
+	width: 408px;
+}
+
 /* 7. Quote Section
 --------------------------------- */
 .quote-section {
-	height: 530px;
-	z-index: 1001;
-	position: relative;
+	/*	height: 530px;*/
+	/*	z-index: 1001;*/
+	/*	position: relative;*/
 }
 
 .quote-headline {
-/*	height: 136px;*/
+	/*	height: 136px;*/
 	background-color: #0c161e;
 	color: #ffffff;
 	text-align: center;
@@ -875,26 +876,27 @@ header #st-logo img {
 }
 
 .quote-bottom {
-	height: 700px;
+	/*	height: 700px;*/
 	background: url(../images/quote-background.jpg) 50% 100% fixed;
 	text-align: center;
-	padding-top: 137px;
-	padding-bottom: 300px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-.quote-bottom .container h3 {
-	line-height: 46px;
+.quote-bottom h3 {
+	line-height: 40px;
 	font-size: 37px;
 	color: #ffffff;
-	font-weight: 200;
+	/*	font-weight: 200;*/
 	margin-top: 0;
+	padding: 0 20px;
 }
 
-.quote-bottom .container h3 span {
+.quote-bottom h3 span {
 	font-weight: 700;
 }
 
-.quote-bottom .container p {
+.quote-bottom p {
 	font-size: 17px;
 	line-height: 24px;
 	text-transform: uppercase;
@@ -903,7 +905,7 @@ header #st-logo img {
 	margin-bottom: 0;
 }
 
-.quote-bottom .container p span {
+.quote-bottom p span {
 	text-transform: none;
 	color: #A4C2D6;
 }
@@ -1261,7 +1263,7 @@ header #st-logo img {
 /* 11. Contact Section
 --------------------------------- */
 .contact-section {
-	/*    height: 870px;*/
+	/*		    height: 870px;*/
 	padding-top: 60px;
 	text-align: center;
 	background: url(../images/contact-hero.jpg) 0 50% fixed
@@ -1337,7 +1339,7 @@ header #st-logo img {
 	display: inline-block;
 	width: 30px;
 	text-align: center;
-	margin-right: 10px;
+	/*	margin-right: 10px;*/
 }
 
 .info-line .info-icon i {
@@ -1345,8 +1347,8 @@ header #st-logo img {
 }
 
 .info-line .info-text {
-	display: inline-block;
-	margin-bottom: 10px;
+	/*	display: inline-block;*/
+	/*	margin-bottom: 10px;*/
 }
 
 .info-line .info-text p {
